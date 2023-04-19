@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+@font-face{
+    font-family: fonte_pizza;
+    src: url("PizzaPeperoni.otf");
+}
+@font-face{
+    font-family: fonte_menu;
+    src: url("Hug\ Me\ Tight\ -\ TTF.ttf");
+}
+@font-face{
+    font-family: fonte_pizza2;
+    src: url("Milenia.ttf");
+}
+@font-face{
+    font-family: fonte_pizza3;
+    src: url("Sunday\ Best\ ttf.ttf");
+}
+
+header{
+    height: 500px;
+    background-image: url(pizza\ cabecalho\ 2.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; /*ajustar imagem background*/
+    background-position: center;
+}
+nav ul{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    font-size: 25px;
+    font-family: fonte_menu;
+}
+h1{
+    margin-top: 10px;
+    font-family: fonte_pizza2 ;
+    color: aliceblue;
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    font-family: fonte_pizza3 ;
+    color: aliceblue;
+    text-align: center;
+}
